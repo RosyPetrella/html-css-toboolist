@@ -1,0 +1,68 @@
+:root {
+    --text-background: white;
+    --background: #f6f8f9;
+    --line: #444851;
+    --button-editorial: #47ADF1;
+    --button-q1: #9C72E4;
+    --button-mobile: #F29E33;
+    --button-website: #D863A1;
+    --button-sale: #B0C926;
+    --green: #64C0A9;
+    --red: #FB3F36;
+    --light-grey: #D0D5D9;
+}
+
+body {
+    background-color: var(--background);
+    margin: 0;
+}
+
+.bg-text {
+    background-color: var(--text-background);
+    padding: 1rem;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline;
+    
+}
+
+.container {
+    margin: 3rem 10rem 1rem 10rem;
+    padding: 50px;
+    background-color: white;
+}
+
+/* button */
+
+#task-button {
+    background-color: var(--button-editorial);
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-style: solid;
+}
+
+#section-button {
+    background-color: white;
+    color: var(--light-grey);
+    border-radius: 5px;
+    border-color: var(--light-grey);
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-style: solid;
+}
+
+/* HR */
+
+hr {
+    background-color: var(--light-grey);
+    padding: 0px;
+}
