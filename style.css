@@ -46,7 +46,7 @@ h1 {
     padding: 10px;
     font-size: 0.8rem;
     font-weight: 600;
-    border-style: solid;
+    border-style: none;
 }
 
 #section-button {
@@ -60,9 +60,74 @@ h1 {
     border-style: solid;
 }
 
+.categories-button {
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+#editorial {
+    background-color: var(--button-editorial);
+}
+
+#Q1 {
+    background-color: var(--button-q1);
+}
+
+#recruiting {
+    background-color: var(--green);
+}
+
+#mobile {
+    background-color: var(--button-mobile);
+}
+
+#web {
+    background-color: var(--button-website);
+}
+
+#sales {
+    background-color: var(--button-sale);
+}
+
 /* HR */
 
 hr {
     background-color: var(--light-grey);
     padding: 0px;
 }
+
+.titles {
+    color: var(--line);
+    font-family: sans-serif;
+}
+
+.check {
+    padding: 1px;
+    border-color: #64C0A9;
+    border-radius: 50%;
+    border-style: solid;
+    background-color: white;
+    color: #64C0A9;
+    height:20px ;
+    width: 20px;
+}
+
+.cross {
+    padding: 1px;
+    border-color: #FB3F36;
+    border-radius: 50%;
+    border-style: solid;
+    background-color: white;
+    color: #FB3F36;
+    height:20px ;
+    width: 20px;
+}
+
+.description {
+    font-family: sans-serif;
+    color: var(--line);
+}
+
