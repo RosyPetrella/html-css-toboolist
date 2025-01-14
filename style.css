@@ -27,7 +27,7 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     display: inline;
-    
+    vertical-align: middle;  
 }
 
 .container {
